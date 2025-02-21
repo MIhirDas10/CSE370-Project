@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Popins", sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: #dfe5f5;
+    width: 100%;
+    overflow: auto;
+    
+}
+
+li{
+    list-style: none;.
+}
+
+.side-menu{
+    position: fixed;
+    background: black;
+    width: 16vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+.side-menu li a{
+    font-size: 15px;
+    padding: 10px 17px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.side-menu li a:hover{
+    background: white;
+    color: black;
+    cursor:pointer;
+}
+.main{
+    margin-left: 245px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.75rem;    
+    background-color: black;
+    color: white;
+    user-select: none;
+}
+
+
+.text-center{    
+    text-align:center; 
+    color:black;
+}
+
+.scrollable-table{
+  height: 55vh;
+  width: 1000px;
+  margin-left: 390px;
+  overflow: scroll;
+}
+table {
+  text-align: center;
+  position: relative;
+  border-collapse: collapse; 
+  background-color: white;
+  font-size: 13px;
+  height: 100%;
+  width: 100%;  
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.table thead tr th {
+  
+  color: black;
+  border-radius: 0;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  font-size: 13px;
+}
+
+tfoot > tr  {
+  background: black;
+  color: white;
+   
+}
+
+.table tbody td .btn-info{
+  background: teal;
+  color: white; 
+  padding: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.table tbody td .btn-info:hover{
+  background: blue;
+  color: white; 
+}
+
+.table tbody td .btn-danger{
+  background-color: brown;
+  color: white; 
+  padding: 9px;
+  font-size: 13px;
+  cursor: pointer;
+}
+;
+.table tbody td .btn-danger:hover{
+  background-color: red;
+  color: white; 
+}
+
+
+
+.text-box{
+    width: 98px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    font-size: 9px;
+    padding: 2.5px;
+    height: 21px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 75%, 75% 100%, 0% 75%);
+}
+
+.btn{    
+    display: block;
+    height:auto;
+    width: 1000px;
+    font-size: 15px;     
+    background: green;
+    padding:7px 0px;
+    border: 1px solid green;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin-left: 390px;
+    vertical-align: bottom;  
+}
+
+.btn:hover{
+    background-color:forestgreen;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+.btn1{    
+    display: block;
+    height:auto;
+    width: 1000px;
+    font-size: 15px;     
+    background-color: brown;
+    padding:7px 0px;
+    border: 1px solid brown;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin-left: 390px;
+    vertical-align: bottom;  
+}
+
+.btn1:hover{
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Popins", sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: #dfe5f5;
+    width: 100%;
+    overflow: auto;
+}
+
+li{
+    list-style: none;.
+}
+
+.side-menu{
+    position: fixed;
+    background: black;
+    width: 16vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+.side-menu li a{
+    font-size: 15px;
+    padding: 10px 17px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.side-menu li a:hover{
+    background: white;
+    color: black;
+    cursor:pointer;
+}
+.main{
+    margin-left: 245px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.75rem;    
+    background-color: black;
+    color: white;
+    user-select: none;
+}
+
+.wrapper{
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    color: black;
+    margin-top: 40px; 
+    line-height: 2; 
+    background: white;
+}
+.container .wrapper h2{
+    font-size: 20px;
+    margin-right: 16px;
+}
+.container .wrapper img{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: 5px;   
+   margin-left: 245px;
+   margin-top: 20px;   
+}
+
+.container .wrapper ul{
+    color: black;
+    font-size: 17px;
+    margin: auto;
+    margin-top: 20px;   
+    text-align: center;
+}
+
+
+.container .wrapper .btn{
+    display: block;
+    height:35px;
+    width: 100%;
+    font-size: 17px;     
+    background: green;    
+    text-align: center;
+    border: 1px solid green;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    margin: auto;
+    
+}
+
+.container .wrapper .btn:hover{
+    background-color: forestgreen;
+    color: white;
+}
+
+
+
+.update-profile{
+   height: auto;   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   line-height: 1.1;
+   width: auto;
+}
+
+.update-profile form{
+   padding:20px;
+   background-color: white;
+   box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+   text-align: center;
+   width: auto;
+   text-align: center;
+   border-radius: 5px;
+}
+
+.update-profile form img{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: 5px;
+}
+
+.update-profile form .flex{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+   grid-gap: 15px;
+}
+
+.update-profile form .flex .inputBox{
+   width: 45%;
+}
+
+.update-profile form .flex .inputBox span{
+   text-align: left;
+   display: block;
+   margin-top: 15px;
+   font-size: 17px;
+   color:black;
+}
+
+.update-profile form .flex .inputBox .box{
+   width: 100%;
+   border-radius: 5px;
+   background-color: white;
+   padding:12px 14px;
+   font-size: 17px;
+   color:black;
+   margin-top: 10px;
+}
+
+.update-profile .btn{
+    display: block;
+    height:35px;
+    width: 100%;
+    font-size: 15px;     
+    background-color: darkcyan;
+    padding:0px 0px;    
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    border: 1px solid darkcyan;
+}
+.update-profile .delete-btn{
+    display: block;
+    height:35px;
+    width: 100%;
+    font-size: 15px;     
+    background: brown;
+    padding:7px 0px;
+    border: 1px solid brown;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+
+.update-profile .btn:hover{
+    background: blue;
+    color: white;    
+}
+
+.update-profile .delete-btn:hover{
+    background-color: red;
+    color: white;    
+}
+
+.scrollable-table{
+  height: 60%;
+  width: 75%;
+  margin-left: 315px;
+  overflow: scroll;
+}
+
+table {
+  text-align: center;
+  position: relative;
+  border-collapse: collapse; 
+  background-color: white;
+  font-size: 14px;
+  height: 100%;
+  width: 100%;   
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.table thead tr th {
+  
+  color: black;
+  border-radius: 0;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  font-size: 13px;
+}
+
+tfoot > tr  {
+  background: black;
+  color: white;
+}
+
+.text-center{
+    
+    text-align:center; 
+    color:black;
+}
+
+.table tbody td .btn{
+  background: green;
+  color: white; 
+  padding: 10px;
+  font-size: 13px;
+    cursor: pointer;
+}
+
+.table tbody td .btn:hover{
+  background: forestgreen;
+  color: white;
+}
+
+.btn2{
+    display: block;
+    height:35px;
+    width: 50%;
+    font-size: 15px;     
+    background-color: darkcyan;
+    padding:0px 0px;    
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    border: 1px solid darkcyan;
+}
