@@ -4,9 +4,9 @@ Here are the files of Gym Management System project. HTML, CSS, JS (frontend) an
 The project can be divided into three major parts - Admin, Trainer/Staff, Customer.
 
 TEAM MEMBERS:
-    1. ADMIN - Mihir Das
-    2. STAFF - Apurbo Sarkar
-    3. CUSTOMER - Abdullah Al Bari
+1. ADMIN - Mihir Das
+2. STAFF - Apurbo Sarkar
+3. CUSTOMER - Abdullah Al Bari
 
 SHORT BRIEF:
 -> Customers cannot see anything backend related. They will have to sign up and sign in to the website open their own accounts and later on purchase what type of package they want for their exercise program. They can also give feedback in the website. Customers can see their own progress and also use todo to act accordingly.
