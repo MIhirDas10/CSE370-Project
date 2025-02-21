@@ -1,0 +1,651 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+/* code here */
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Add some spacing */
+  background-color: #222434; /* Optional: background color */
+}
+/* cover-photo */
+/* Cover Photo Section */
+.cover-photo {
+  position: relative; /* Needed for the overlay and content */
+  background-image: url('g1.jpg'); /* Replace with your image path */
+  background-position: center;
+  background-size: cover;
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* Overlay */
+.cover-photo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  z-index: 1; /* Ensure it sits behind the text */
+}
+/* cover-photo */
+/* Description Section */
+.description {
+  position: relative;
+  text-align: center;
+  color: white; /* Make text visible over the background */
+  font-family: 'Arial', sans-serif; /* Adjust font style */
+  padding-bottom: 30px;
+  z-index: 2;
+}
+
+.description h1 {
+  font-size: 3rem; /* Main title size */
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.description h2 {
+  font-size: 2rem; /* Subtitle size */
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+/* description-section */
+
+.button button {
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff; /* Primary blue */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+/* Header section on the left */
+.header-section a {
+  text-decoration: none;
+  font-size: 24px;
+  color: rgb(234, 234, 234);
+  font-weight: bold;
+}
+/* Navbar section with links on the right */
+.navbar-section {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+}
+/* Unordered list styling */
+.nav {
+  display: flex; /* Use flex for horizontal alignment */
+  list-style: none; /* Remove bullets */
+  margin: 0;
+  padding: 0;
+}
+.navitems {
+  display: flex; /* Flex container for links */
+  gap: 15px; /* Space between links */
+}
+.link {
+  text-decoration: none; /* Remove underline */
+  color: rgb(255, 255, 255); /* Default color */
+  font-size: 18px; /* Adjust font size */
+  transition: color 0.1s ease; /* Smooth hover transition */
+}
+.link:hover {
+  color: rgb(141, 180, 248);
+}
+
+.header-title{
+  margin-top: -400px;
+  z-index: 2;
+}
+
+/* programs section starts here */
+.program-text{
+  color: #222434;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+.program-text p{
+  font-size: 1rem;
+  color: #666;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem; /* Equivalent to the inline Bootstrap style */
+}
+
+.heading-container {
+  text-align: center;
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  padding: 2rem;
+  flex-wrap: wrap; /* Makes cards stack on smaller screens */
+  margin-bottom: 100px;
+}
+
+/* Individual Card */
+.card {
+  width: 350px;
+  height: 480px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h3 {
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.card-content p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.card-content .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.card-content .btn:hover {
+  background-color: #0056b3;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+/* programs section ends here*/
+
+/* code here */
+
+.banner1{
+  background-color: #333333;
+}
+
+.equipments-card-container{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+/* this card is for equipments */
+.equipments-holder{
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.equipments-card{
+  background-color:white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px teal;
+  margin: 20px;
+  user-select: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.equipments-card img{
+  width: 100%;
+  height: 100%;
+}
+.equipments-card-content{
+  padding: 16px;    
+}
+.equipments-card-content h3{
+  font-size: 28px;
+}
+.equipments-card-content .btn{
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: teal;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 16px;
+  color: white; 
+}
+.equipments-card-content .btn:hover{
+  background-color:chartreuse;
+  transition: 0.5s; 
+  color: black
+}
+.equipments-card-content .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.equipments-card-content .btn:hover {
+  background-color: #0056b3;
+}
+
+.equipments-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact us page */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+section {
+position: relative;
+z-index: 3;
+padding-top: 50px;
+padding-bottom: 50px;
+user-select: none;
+}
+.container {
+max-width: 1080px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 20px;
+padding-right: 20px;
+}
+.section-header {
+margin-bottom: 50px;
+text-align: center;
+}
+.section-header h2 {
+color: rgb(44, 44, 44);
+font-weight: bold;
+font-size: 3em;
+margin-bottom: 20px;  
+}
+.row {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+.contact-info {
+width: 50%;
+}
+.contact-info-item {
+display: flex;
+margin-bottom: 30px;
+}
+.contact-info-icon {
+height: 70px;
+width: 70px;
+background-color: #008080;;
+text-align: center;
+border-radius: 50%;
+color: white;
+}
+.contact-info-icon i {
+font-size: 30px;
+line-height: 70px;
+}
+.contact-info-content {
+margin-left: 20px;
+color: rgb(57, 57, 57);
+}
+.contact-info-content h4 {
+color: teal;
+font-size: 1.4em;
+margin-bottom: 5px;
+}
+.contact-form {
+background-color: white;
+padding: 40px;
+width: 45%;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+.contact-form h2 {
+font-weight: bold;
+font-size: 2em;
+margin-bottom: 10px;
+color: black;
+}
+.contact-form .input-box {
+position: relative;
+width: 100%;
+margin-top: 10px;
+}
+.contact-form .input-box input,
+.contact-form .input-box textarea{
+width: 100%;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+border: none;
+border-bottom: 2px solid black;
+outline: none;
+resize: none;    
+}
+.contact-form .input-box input[type="submit"]
+{
+width: 100%;
+background: teal;
+color: white;
+border: none;
+cursor: pointer;
+padding: 10px;
+font-size: 18px;
+border: 1px solid teal;
+transition: 0.5s;
+}
+.contact-form .input-box input[type="submit"]:hover
+{
+background: chartreuse;
+color: black;
+}
+@media (max-width: 991px) {
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}  
+.row {
+  flex-direction: column;
+}  
+.contact-info {
+  margin-bottom: 40px;
+  width: 100%;
+}  
+.contact-form {
+  width: 100%;
+}
+}
+/* programs section starts here */
+.program-section{
+  width: 50%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 3rem;
+}
+/* programs section starts here */
+
+
+/* carousel */
+.carousel-text{
+  color: #222434;
+  /* padding-top: 100px; */
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+.carousel-text p{
+  font-size: 1rem;
+  color: #666;
+}
+
+.carousel-inner img {
+  height: 600px; /* Set your desired height */
+  /* width: 70%; */
+  object-fit: cover; /* Ensures the image fits nicely */
+}
+
+
+
+/* Staff login page */
+
+.login-box{
+  display: flex;
+  justify-content: center;
+  margin-left: 500px;
+  flex-direction: column;
+  width: 440px;
+  height: 480px;
+  padding: 30px; 
+  user-select: none;
+}
+.login-header{
+  text-align: center;
+  margin: 20px 0 40px 0;
+}
+.login-header header{
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+.input-box .input-field{
+  width: 100%;
+  height: 60px;
+  font-size: 17px;
+  padding: 0 25px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  border:none;
+  box-shadow: blue;
+  outline: none;
+  transition: .3s;
+}
+::placeholder{
+  font-weight: 500;
+  color: dimgray; 
+}
+.submit-btn{
+  width: 100%;
+  height: 60px;
+  background: teal;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .3s;
+  font-size: 17px;
+  font-weight: bold;
+  color:white;
+}
+.submit-btn:hover{
+  background-color: chartreuse;
+  color: black
+}
+
+/* Styling for the equipment section */
+.equipments-section {
+  text-align: center;
+  padding-top: 60px;
+  margin: 140px 0px 50px;
+}
+
+.equipments-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.equipments-section h6 {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Grid layout for equipment images */
+.equipments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 12px;
+  padding: 80px;
+  margin-top: -60px;
+}
+
+.card {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+  width: 100%;
+  height: 350px;
+  border-bottom: 4px solid #f0f0f0;
+}
+
+/* Hover effect on cards */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* contact us section starts here*/
+.contact-section{
+  text-align: center;
+  margin: 0px 0px 50px;
+}
+
+.contact-section h1{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-section h6{
+  font-size: 1rem;
+  color: #666;
+}
+.section-header h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info{
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-info img{
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 85px;
+}
+
+.contact-form{
+  flex: 1;
+  padding: 20px;
+}
+
+#contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box input,
+.input-box textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* contact us section starts here*/
+
+/* footer section starts here */
+.footer-container {
+  max-width: 1400px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+
+/* footer section ends here */
+
+/* scroll up section starts here */
+/*scroll to top button starts from here*/
+.scroll-to-top {
+  background: lightseagreen;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  display: flex; /* Changed to flex for proper centering */
+  justify-content: center; /* Horizontally align the icon */
+  align-items: center; /* Vertically align the icon */
+  position: fixed; /* Fixed position for consistent placement */
+  bottom: 20px; /* Distance from the bottom of the viewport */
+  right: 20px; /* Distance from the right side of the viewport */
+  cursor: pointer;
+  z-index: 1000; /* Ensure it's above other elements */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background: darkseagreen; /* Lighter green on hover */
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+#scroll-button-icon {
+  font-size: 18px;
+  margin: 0; /* Remove extra margins for better centering */
+}
+
+/*sroll to top button ends here*/
+.txt-des{
+  color: #e1e3e4;
+}
+.element{
+  list-style: none;
+  text-decoration: none;
+  color: #acb5bd;
+}
+.element:hover{
+  color: white;
+}
+/* .link:hover{
+  color: orange;
+} */
+/* scroll up section ends here */
+
+/* sponsor section */
+.sponsor-section .text{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
