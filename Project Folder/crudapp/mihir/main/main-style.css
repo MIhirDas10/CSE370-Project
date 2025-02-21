@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    list-style: none;
+    text-decoration: none;
+}
+.flex-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul .navbar-nav{
+    font-size: 20px;
+}
+.welcome-img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
+.intro{
+    text-align: center;
+    margin-top: -390px;
+    font-weight: bold;
+    color: white;
+    font-size: 63px;
+}
+/* schedule section starts here */
+.schedule-section{
+    font-size: 32px;
+    color: black;
+    font-weight: 600;
+    display: inline-grid;
+    padding: 50px 50px 50px 0px;;
+}
+.two-part-holder{
+    display: inline-flex;
+
+}
+/* .card{
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(254, 239, 212);
+}
+.card i{
+    font-size: 40px;
+}
+.card-holder{
+    margin: auto;
+} */
+
+.card-holder {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.card {
+    width: 18rem;
+    padding: 5px; /* Add padding for better spacing inside the card */
+    background-color: #f8f9fa; /* Light background for the cards */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    text-align: center; /* Center align text and icon */
+}
+
+.card i {
+    font-size: 40px; /* Increase icon size */
+    color: #007bff; /* Use a primary color for the icon */
+    margin-bottom: 15px; /* Add spacing below the icon */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
+}
+
+.card-body {
+    padding: 10px 0; /* Adjust padding inside the card body */
+}
+
+.card-text {
+    font-size: 1.2rem; /* Slightly larger text for better readability */
+    color: #6c757d; /* Muted color for the text */
+}
+
+.card-title {
+    font-size: 2rem; /* Larger font size for the count */
+    font-weight: bold; /* Bold for emphasis */
+    color: #343a40; /* Dark color for better contrast */
+}
+
+.two-part{
+    max-width: 1250px;
+    margin: auto;
+    margin-top: 320px;
+}
+.chart-div{
+    width: 45%;
+}
+.chart-div h4{
+    margin-bottom: 1rem !important;
+    margin: auto;
+    text-align: center;
+    margin-top: 250px;
+}
+.member-list{
+    margin: auto;
+    justify-content: center;
+    display: grid;
+    margin-top: 100px;
+    text-align: center;
+}
+.pie-chart-header{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.pie-chart-header div{
+    color: rgb(65 65 65);
+}
+.financial-header{
+    padding-bottom: 50px;
+    text-align: center;
+}
+/* bar chart */
+.chart-div{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: -20px;
+}
+
+/*scroll to top button starts from here*/
+.scroll-to-top {
+    background: lightseagreen;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex; /* Changed to flex for proper centering */
+    justify-content: center; /* Horizontally align the icon */
+    align-items: center; /* Vertically align the icon */
+    position: fixed; /* Fixed position for consistent placement */
+    bottom: 20px; /* Distance from the bottom of the viewport */
+    right: 20px; /* Distance from the right side of the viewport */
+    cursor: pointer;
+    z-index: 1000; /* Ensure it's above other elements */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    background: darkseagreen; /* Lighter green on hover */
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+#scroll-button-icon {
+    font-size: 18px;
+    margin: 0; /* Remove extra margins for better centering */
+}
+
+/*sroll to top button ends here*/
+.txt-des{
+    color: #e1e3e4;
+}
+.element{
+    list-style: none;
+    text-decoration: none;
+    color: #acb5bd;
+}
+.element:hover{
+    color: white;
+}
+.link:hover{
+    color: orange;
+}

@@ -1,0 +1,46 @@
+.card-holder {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.card {
+    height: 10rem;
+    width: 15rem;
+    padding: 2px; /* Add padding for better spacing inside the card */
+    background-color: #d1e5f8;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    text-align: center; /* Center align text and icon */
+}
+
+.card i {
+    font-size: 40px; /* Increase icon size */
+    color: #007bff; /* Use a primary color for the icon */
+    margin-bottom: 15px; /* Add spacing below the icon */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
+}
+
+.card-body {
+    padding: 10px 0; /* Adjust padding inside the card body */
+}
+
+.card-text {
+    font-size: 1.2rem; /* Slightly larger text for better readability */
+    color: #2b3034; /* Muted color for the text */
+    font-family: calibri;
+}
+
+.card-title {
+    font-size: 2rem; /* Larger font size for the count */
+    font-weight: bold; /* Bold for emphasis */
+    color: #343a40; /* Dark color for better contrast */
+}

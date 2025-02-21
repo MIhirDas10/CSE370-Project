@@ -1,0 +1,130 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1.text {
+    font-size: 2.5rem;
+    /* margin-bottom: 20px; */
+}
+
+.container {
+    margin: 50px auto;
+    background: #fff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 570px;
+    width: 550px;
+}
+
+.wrapper {
+    padding: 30px;
+    text-align: center;
+}
+
+.wrapper img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+}
+
+ul li {
+    font-size: 1.1rem;
+    /* margin-bottom: 10px; */
+    line-height: 1.6;
+}
+
+ul hr {
+    border: 0.5px solid #ddd;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1.text {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.wrapper {
+    padding: 30px;
+    text-align: center;
+}
+
+.wrapper img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+ul hr {
+    border: 0.5px solid #ddd;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
