@@ -9,6 +9,7 @@ TEAM MEMBERS:
 3. CUSTOMER - Abdullah Al Bari
 
 SHORT BRIEF:
+
 -> Customers cannot see anything backend related. They will have to sign up and sign in to the website open their own accounts and later on purchase what type of package they want for their exercise program. They can also give feedback in the website. Customers can see their own progress and also use todo to act accordingly.
 
 -> Trainers/Staffs can handle the customers by accessing their routines. They can only see a few backend details like all the customer's details and their progress history also the company stocks (Graphs) [only the part they have been given access to].
